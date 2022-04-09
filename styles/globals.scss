@@ -12,4 +12,19 @@ a {
 * {
   box-sizing: border-box;
 }
-  
+
+button {
+  display: flex;
+  font-size: 18px;
+  color: white;
+  padding: 0.5rem 1rem;
+  min-width: fit-content;
+  height: 3rem;
+  border-radius: 5px;
+  background-color: rgb(32, 58, 96);
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #f18e7d;
+  }
+}
