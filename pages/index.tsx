@@ -11,6 +11,7 @@ const Home: NextPage = () => {
         <title>RPC demo page by Chris K Johnson</title>
         <meta name="description" content="Rock paper coin demo page by Chris K Johnson" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/zgf1pnx.css"></link>
       </Head>
 
       <main className={styles.main}>
