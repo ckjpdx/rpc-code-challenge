@@ -18,6 +18,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-image: url(/rpc-bg.jpg);
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
 }
 
 .footer {
