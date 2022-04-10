@@ -4,11 +4,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: white;
+  padding: 20px 40px;
 }
 
 .main {
   min-height: 100vh;
-  padding: 1rem 0;
+  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -19,6 +21,12 @@
   background-position-x: 50%;
   background-position-y: center;
   background-size: cover;
+}
+
+.sign_up_wrapper {
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
 }
 
 .footer {
