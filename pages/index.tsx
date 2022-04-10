@@ -14,17 +14,17 @@ const Home: NextPage = () => {
         <link rel="stylesheet" href="https://use.typekit.net/zgf1pnx.css"></link>
       </Head>
 
+      <header className={styles.header}>
+          <Image 
+          alt='RPC logo' 
+          src='/rpc-logo.png' 
+          width={168} 
+          height={53}
+          />
+        <button className={utils.button_small}>Sign Up</button>
+      </header>
+
       <main className={styles.main}>
-        
-        <header className={styles.header}>
-            <Image 
-            alt='RPC logo' 
-            src='/rpc-logo.png' 
-            width={168} 
-            height={53}
-            />
-          <button>Sign Up</button>
-        </header>
 
         <section className={styles.sign_up_wrapper}>
 
