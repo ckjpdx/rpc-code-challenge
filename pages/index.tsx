@@ -28,26 +28,27 @@ const Home: NextPage = () => {
 
         <section className={styles.sign_up_wrapper}>
 
-          <div className={styles.grid}>
+          <h2 className={utils.margin_5}>Welcome back!</h2>
+          <p className={utils.margin_5}>Sign in and get to it.</p>
 
+          <label>Email</label>
 
+          <input value='Email Address' />
+          <label>Password</label>
 
-          </div>
+          <input value='Password' />
+          <p className={utils.text_under_input}>Forgot your password?</p>
+
+          <button type='button' disabled>Sign In</button>
+
+          <p>Don{`'`}t have an account? Create one now!</p>
 
         </section>
+
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p>© 2022 Rock Paper Coin</p>
       </footer>
     </>
   )
