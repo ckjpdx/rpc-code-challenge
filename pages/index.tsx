@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>RPC demo page by Chris K Johnson</title>
         <meta name="description" content="Rock paper coin demo page by Chris K Johnson" />
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
           </span>
         </a>
       </footer>
-    </div>
+    </>
   )
 }
 
