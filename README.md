@@ -1,6 +1,11 @@
 # RPC Coding Challenge
 This project demonstrates knowledge in Nextjs
 
+Notes
+
+- I could not grab the SVG from the source website directly, so I had to use a screen capture PNG instead.
+- Spacing measurments on the offical page were in rems, so I had to approximate with pixel amounts.
+
 ---
 Original Nextjs readme below
 

@@ -5,15 +5,15 @@
 }
 .button_small {
     margin: 0;
-    padding: 10px 25px;  
+    padding: 10px 28px;  
 }
 // FONT & TEXT
 .text_under_input {
     align-self: flex-end;
     text-align: right;
     margin: 0;
-    color: lightgray;
+    color: #aaa;
 }
 .font_color_alert {
-    color: $font-color-alert;
+    color: $color-secondary;
 }

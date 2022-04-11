@@ -3,13 +3,14 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   background-color: white;
   padding: 18px 40px;
 }
 
 .main {
-  min-height: calc(100vh - 93px - 50px);
+  min-height: calc(100vh - 89px - 50px);
   padding: 0;
   flex: 1;
   display: flex;
@@ -24,15 +25,25 @@
 }
 
 .sign_up_wrapper {
-  min-width: 600px;
+  min-width: 100%;
+  min-height: 100%;
+  box-shadow: none;
+  border: 1px solid #eee;
+  border-radius: 0;    
   background-color: white;
   margin: 0;
-  padding: 10px 115px;
-  border-radius: 5px;
-  box-shadow: 30px 30px 60px 0 rgb(74 74 74 / 25%);
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and ($breakpoint-tablet) {
+    & {
+      min-width: 630px;
+      padding: 10px 115px 0;
+      border-radius: 5px;
+      box-shadow: 30px 30px 60px 0 rgba(74, 74, 74, 0.25);
+    }
+  }
 }
 
 .form_fields_wrapper {
