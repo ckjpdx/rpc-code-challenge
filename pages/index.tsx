@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import utils from '../styles/utils.module.scss'
+import LoginForm from '../components/LoginForm'
 // @ts-check
 
 const Home: NextPage = () => {
@@ -28,21 +29,15 @@ const Home: NextPage = () => {
       <main className={styles.main}>
 
         <section className={styles.sign_up_wrapper}>
-
+        
           <h2 className={utils.margin_5}>Welcome back!</h2>
           <p className={utils.margin_5}>Sign in and get to it.</p>
 
-          <label>Email</label>
+          <LoginForm />
 
-          <input value='Email Address' />
-          <label>Password</label>
-
-          <input value='Password' />
-          <p className={utils.text_under_input}>Forgot your password?</p>
-
-          <button type='button' disabled>Sign In</button>
-
-          <p>Don{`'`}t have an account? Create one now!</p>
+          <p className={utils.font_color_alert}>
+            <a href='#'>Don{`'`}t have an account? Create one now!</a>
+          </p>
 
         </section>
 
